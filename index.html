@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureQR - 安全加密二维码应用</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            margin: 20px auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin: 20px 0;
+        }
+        
+        .description {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 18px;
+        }
+        
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin: 40px 0;
+        }
+        
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            min-width: 200px;
+        }
+        
+        .button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        .button.secondary {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            border: 1px solid #bdc3c7;
+        }
+        
+        .button.secondary:hover {
+            background-color: #bdc3c7;
+        }
+        
+        footer {
+            margin-top: 80px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            
+            .button {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <!-- 替换为实际的应用图标 -->
+        <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="120" rx="24" fill="#3498db"/>
+            <path d="M30 30H50V50H30V30ZM70 30H90V50H70V30ZM30 70H50V90H30V70ZM60 30V40H65V45H60V50H65V55H60V60H65V65H60V70H65V75H60V80H70V90H80V80H90V70H80V60H70V50H90V60H95V30H70ZM70 90V95H75V90H70ZM80 90H85V95H90V90H95V85H90V90H80ZM30 55H40V65H30V55ZM40 65H50V60H45V55H50V50H40V65ZM55 80V85H60V80H55ZM60 85V90H65V85H60Z" fill="white"/>
+        </svg>
+    </div>
+    
+    <h1>SecureQR</h1>
+    <p class="description">安全加密二维码应用<br>保护您的敏感信息安全</p>
+    
+    <div class="button-container">
+        <a href="support.html" class="button">技术支持</a>
+        <a href="privacy.html" class="button">隐私政策</a>
+        <a href="https://apps.apple.com/app/id123456789" class="button secondary">下载应用</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Lei Dong 版权所有</p>
+    </footer>
+</body>
+</html> 
